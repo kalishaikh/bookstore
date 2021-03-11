@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="false"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/BKNJ_Bookstore/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet"/>
+    <!-- Custom styles for this template -->
+    <link href="/BKNJ_Bookstore/res/blog.css" rel="stylesheet"/>
+  </head>
+  <body>
+ 
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#"></a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-dark" href="#">BKNJ Bookstore</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+        </a>
+        <a class="btn btn-sm btn-outline-secondary" href="#">Log In</a>   
+		<a class="btn btn-sm btn-outline-secondary" href="#">Shopping Cart</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#">Fiction</a>
+      <a class="p-2 link-secondary" href="#">Non-Fiction</a>
+      <a class="p-2 link-secondary" href="#">Cookbooks</a>
+      <a class="p-2 link-secondary" href="#">Wellness</a>
+      <a class="p-2 link-secondary" href="#">Kids Books</a>
+      <a class="p-2 link-secondary" href="#">Teen Books</a>
+      <a class="p-2 link-secondary" href="#">Politics</a>
+      <a class="p-2 link-secondary" href="#">Biography</a>
+      <a class="p-2 link-secondary" href="#">Science and Technology</a>
+
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">A featured book yay</h1>
+      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Fiction</strong>
+          <h3 class="mb-0">Featured book</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Fiction</strong>
+          <h3 class="mb-0">Another featured book</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Non-Fiction</strong>
+          <h3 class="mb-0">So many books</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Cookbook</strong>
+          <h3 class="mb-0">Book numero 4</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4 fst-italic border-bottom">
+        BKNJ Recommendations
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="blog-post-title">Bestselling Series: Harry Potter!!!!</h2>
+        <p class="blog-post-meta">January 1, 2014 </p>
+
+        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+       	<p>Description of the series</p>
+       	<p>Some links to the books with thumbnails or something. </p>
+        <hr/>
+        
+      </article><!-- /.blog-post -->
+
+      <article class="blog-post">
+        <h2 class="blog-post-title">New Feature: Some Other Series</h2>
+        <p class="blog-post-meta">December 14, 2013</p>
+
+        <p>From Tokyo to Mexico, to Rio. Yeah, you take me to utopia. I'm walking on air. We'd make out in your Mustang to Radiohead. I mean the ones, I mean like she's the one. Sun-kissed skin so hot we'll melt your popsicle. Slow cooking pancakes for my boy, still up, still fresh as a Daisy.</p>
+        <ul>
+          <li>I hope you got a healthy appetite.</li>
+          <li>You're never gonna be unsatisfied.</li>
+          <li>Got a motel and built a fort out of sheets.</li>
+        </ul>
+        <p>Don't need apologies. Boy, you're an alien your touch so foreign, it's <em>supernatural</em>, extraterrestrial. Talk about our future like we had a clue. I can feel a phoenix inside of me.</p>
+      </article><!-- /.blog-post -->
+
+   <!--   <nav class="blog-pagination" aria-label="Pagination">
+        <a class="btn btn-outline-primary" href="#">Older</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+      </nav> -->
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="fst-italic">About</h4>
+        <p class="mb-0">About BKNJ Bookstore yayyyyyyyyyyy description description books we were founded in 2021 cause we were forced to for school. </p>
+      </div>
+
+      <div class="p-4">
+        <h4 class="fst-italic">Fiction</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Mystery &amp; Suspense</a></li>
+          <li><a href="#">Thrillers</a></li>
+          <li><a href="#">Sci-Fi &amp; Fantasy</a></li>
+          <li><a href="#">Romance</a></li>
+          <li><a href="#">Manga</a></li>
+          <li><a href="#">Historical Fiction</a></li>
+          <li><a href="#">Classics</a></li>
+          <li><a href="#">Shop All Fiction</a></li>
+     
+        </ol>
+      </div>
+
+      <div class="p-4">
+        <h4 class="fst-italic">Non-Fiction</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">Biography and Memoir</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">History &amp; Politics</a></li>
+          <li><a href="#">Engineering</a></li>
+          <li><a href="#">Science &amp; Technology</a></li>
+          <li><a href="#">Cookbooks</a></li>
+          <li><a href="#">Faith and Spirituality</a></li>
+          <li><a href="#">Shop All Non-Fiction</a></li>
+        </ol>
+      </div>
+      
+    </div>
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+<footer class="blog-footer">
+  <p>Website built for <a href="#">BKNJ Bookstore</a></p>
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+
+    
+  </body>
+</html>
+</jsp:root>
