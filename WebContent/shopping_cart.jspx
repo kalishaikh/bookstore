@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8"
+		pageEncoding="UTF-8" session="false" />
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+	<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Bootstrap core CSS -->
+<link href="/BKNJ_Bookstore/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet" />
+
+<style>
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+</style>
+
+
+<!-- Custom styles for this template -->
+<link
+	href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap"
+	rel="stylesheet" />
+<!-- Custom styles for this template -->
+<link href="/BKNJ_Bookstore/res/form-validation.css" rel="stylesheet" />
+<link href="/BKNJ_Bookstore/res/blog.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+
+
+	<div class="container">
+
+		<header class="blog-header py-3">
+			<div
+				class="row flex-nowrap justify-content-between align-items-center">
+				<div class="col-4 pt-1">
+					<a class="link-secondary" href="#"></a>
+				</div>
+				<div class="col-4 text-center">
+					<a class="blog-header-logo text-dark" href="main_page.jspx">BKNJ
+						Bookstore</a>
+				</div>
+				<div class="col-4 d-flex justify-content-end align-items-center">
+					<a class="btn btn-sm btn-outline-secondary" href="main_page.jspx">Continue Shopping</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="py-5 text-center">
+				<h2></h2>
+			</div>
+
+			<div class="row g-3">
+				<div class="col-md-5 col-lg-4 order-md-last">
+					<h4 class="d-flex justify-content-between align-items-center mb-3">
+						<span class="text-muted">Total amount</span>
+					</h4>
+					<ul class="list-group mb-3">
+						<li class="list-group-item d-flex justify-content-between lh-sm">
+							<div>
+								<h6 class="my-0">Subtotal</h6>
+
+							</div> <span class="text-muted">$12</span>
+						</li>
+						<li class="list-group-item d-flex justify-content-between lh-sm">
+							<div>
+								<h6 class="my-0">Shipping</h6>
+
+							</div> <span class="text-muted">$8</span>
+						</li>
+
+						<li class="list-group-item d-flex justify-content-between"><span>The
+								total amount (including VAT) in CAD</span> <strong>$20</strong></li>
+					</ul>
+
+					<button type="button" class="btn btn-primary btn-block" href="#">Go
+						to Checkout</button>
+				</div>
+				<div class="col-md-7 col-lg-8">
+
+					<h5 class="mb-4">
+						Your Shopping Cart (<span>2</span> items)
+					</h5>
+					<div class="row mb-3">
+						<div class="col-md-4 themed-grid-col">
+							<div class="pb-3">
+								<img class="img-fluid w-100"
+									src="/BKNJ_Bookstore/images/book_default.png" />
+							</div>
+
+						</div>
+						<div class="col-md-8 themed-grid-col">
+						<div class="row">
+							<div class="col-md-8 themed-grid-col">
+								<h5>Harry Potter and the Prisoner of Azkaban</h5>
+								<p class="mb-3 text-muted text-uppercase small"></p>
+								<p class="mb-2 text-muted text-uppercase small">By: JK Rowling</p>
+								<p class="mb-3 text-muted text-uppercase small">Genre: Fantasy</p>
+								<a href="#!" type="button"
+									class="card-link-secondary small text-uppercase mr-3">Remove item </a>
+							</div>
+							<div class="col-md-1 themed-grid-col">
+								
+								
+								<span><strong id="summary">$17.99</strong></span>
+					
+
+							</div>
+							
+</div>
+						</div>
+						
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-4 themed-grid-col">
+							<div class="pb-3">
+								<img class="img-fluid w-100"
+                      src="/BKNJ_Bookstore/images/book_default.png"/>
+							</div>
+
+						</div>
+						<div class="col-md-8 themed-grid-col">
+						<div class="row">
+							<div class="col-md-8 themed-grid-col">
+								<h5>Harry Potter and the Chamber of Secrets</h5>
+								<p class="mb-3 text-muted text-uppercase small"></p>
+								<p class="mb-2 text-muted text-uppercase small">By: JK Rowling</p>
+								<p class="mb-3 text-muted text-uppercase small">Genre: Fantasy</p>
+								<a href="#!" type="button"
+									class="card-link-secondary small text-uppercase mr-3">Remove item </a>
+							</div>
+							<div class="col-md-1 themed-grid-col">
+								
+								
+								<span><strong id="summary">$17.99</strong></span>
+					
+
+							</div>
+							
+</div>
+						</div>
+						
+					</div>
+					
+
+				</div>
+			</div>
+
+
+
+
+
+
+
+		</main>
+	</div>
+	<!--Section: Block Content-->
+
+</body>
+<footer class="blog-footer">
+	<p class="mb-1">2021 BKNJ Bookstore</p>
+	<p>
+		<a href="#">Back to top</a>
+	</p>
+</footer>
+	</html>
+</jsp:root>
